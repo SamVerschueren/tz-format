@@ -1,6 +1,6 @@
 {
   "name": "tz-format",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Format a date with timezone",
   "license": "MIT",
   "repository": "SamVerschueren/tz-format",
