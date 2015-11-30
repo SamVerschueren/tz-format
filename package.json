@@ -1,0 +1,40 @@
+{
+  "name": "tz-format",
+  "version": "0.0.0",
+  "description": "Format a date with timezone",
+  "license": "MIT",
+  "repository": "SamVerschueren/tz-format",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "datetime",
+    "date-time",
+    "format",
+    "timezone",
+    "tz",
+    "iso"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "*",
+    "sinon": "^1.17.2",
+    "xo": "*"
+  },
+  "xo": {
+    "ignores": [
+      "test.js"
+    ]
+  }
+}
