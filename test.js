@@ -21,6 +21,10 @@ test.afterEach(() => {
 	}
 });
 
+test('error', t => {
+	t.throws(fn.bind(undefined, 'foo'), 'Provide a date');
+});
+
 test.serial('no offset', t => {
 	stub = sinon.stub(Date.prototype, 'getTimezoneOffset').returns(0);
 

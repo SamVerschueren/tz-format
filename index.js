@@ -7,6 +7,10 @@ function pad(n) {
 module.exports = function (date) {
 	date = date || new Date();
 
+	if (!(date instanceof Date)) {
+		throw new TypeError('Provide a date');
+	}
+
 	var tzHours = Math.floor(Math.abs(date.getTimezoneOffset()) / 60);
 	var tzMinutes = Math.abs(date.getTimezoneOffset()) % 60;
 	var sign = date.getTimezoneOffset() > 0 ? '-' : '+';
