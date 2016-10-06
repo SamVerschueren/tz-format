@@ -32,7 +32,7 @@ format(new Date(2015, 11, 25, 11, 0, 0, 0));
 
 #### input
 
-Type: `date`  
+Type: `date`<br>
 Default: `new Date()`
 
 
